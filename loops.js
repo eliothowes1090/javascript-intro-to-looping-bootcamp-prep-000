@@ -29,5 +29,3 @@ function doWhileLoop(num) {
       }
   while (num < 10);
 };
-
-
