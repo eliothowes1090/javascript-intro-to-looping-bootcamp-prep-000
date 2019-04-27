@@ -20,5 +20,14 @@ function doWhileLoop(num) {
   do {
     console.log("I run once regardless."); num++
       }
-  while (num === 0)
+  while (num === 0);
 };
+
+function doWhileLoop(num) {
+  do {
+    console.log("I run once regardless."); num++
+      }
+  while (num < 10);
+};
+
+
