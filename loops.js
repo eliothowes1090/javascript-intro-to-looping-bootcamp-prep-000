@@ -16,8 +16,8 @@ function whileLoop(n) {
   return "done"
 };
 
-var num = 0
 
 function doWhileLoop(num) {
+  var num = 0
   do {console.log("I run once regardless.") num++ } while (num === 0)
 };
