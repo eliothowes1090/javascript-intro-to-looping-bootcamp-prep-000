@@ -23,5 +23,6 @@ function incrementVariable() {
   return i;
 
 function doWhileLoop(num) {
-  do {console.log("I run once regardless.") incrementVariable()} while (num < 1)
+  var num = 0
+  do {console.log("I run once regardless.") num++ } while (num === 0)
 };
